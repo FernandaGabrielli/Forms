@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Montserrast', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  linear-gradient(130deg,#de6262 , #ffb88c);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    color: rgba(255, 255, 255, 0.596);
+    text-align: center; /* Alinhar o texto no centro */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(194, 194, 194, 0.1); 
+    border: 2.5px solid rgba(0, 0, 0, 0.288); 
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #e7828244;
+    color: rgba(255, 255, 255, 0.596);
+    border: 2.5px solid rgba(0, 0, 0, 0.288); 
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px auto 20px;
+}
+
+button:hover {
+    background-color: #de6262a2;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 5px 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.596);
+}
