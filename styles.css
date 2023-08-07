@@ -61,6 +61,9 @@ button:hover {
     color: rgba(255, 255, 255, 0.596);
 }
 
+.footer a {
+    text-decoration: none; /* Remover sublinhado do link */
+
 footer:hover {
     background-color:  #de6262a2;
 }
